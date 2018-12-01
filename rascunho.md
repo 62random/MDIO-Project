@@ -5,7 +5,8 @@
 
 Temos uma rede de células, ligadas por arcos.
 Cada arco tem um tempo de propagação associdado.
-O istante em que o fogo chega a uma célula é determinado pelo caminho mais curto entre a origem do fogo e essa célula.
+O instante em que o fogo chega a uma célula é determinado pelo caminho mais curto entre a origem do fogo e essa célula.
+A origem do fogo é sempre a célula (1,1)
 
 # Dicionário
 
