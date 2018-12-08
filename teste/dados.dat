@@ -1,0 +1,16 @@
+/*********************************************
+ * OPL 12.8.0.0 Data
+ * Author: Asus
+ * Creation Date: 01/12/2018 at 23:19:02
+ *********************************************/
+
+ //C:\Users\Asus\Dropbox\cadeiras\mdio\dados.xlsx
+ 
+ 
+ SheetConnection sheet("C:\\Users\\Asus\\Dropbox\\cadeiras\\mdio\\dados.xlsx");
+ 
+
+Cima from SheetRead(sheet,"C4:I10");
+Direita from SheetRead(sheet,"C15:I21");
+Baixo from SheetRead(sheet,"C25:I31");
+Esquerda from SheetRead(sheet,"C35:I41");
