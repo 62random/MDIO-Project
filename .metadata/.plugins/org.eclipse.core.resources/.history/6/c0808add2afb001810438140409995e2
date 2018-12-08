@@ -9,6 +9,12 @@
 int n = 7;
 int a[i in 1..n] = i;
 
+//Início ou fim do fogo
+int i_inicio = 1;
+int j_inicio = 1;
+int i_fim = 1;
+int j_fim = 7;
+
 
 //Número de recursos b
 int b = 8;
@@ -16,16 +22,13 @@ int b = 8;
 //Constante de retardamento do fogo por recurso delta
 int delta = 8;
 
-//Intervalo de tempo onde minimizar área ardida
-float time = 12;
-
 //Parâmetros sobre os custos dos arcos
 int Cima [1..n][1..n] = ...;
 int Direita [1..n][1..n] = ...;
 int Baixo [1..n][1..n] = ...;
 int Esquerda [1..n][1..n] = ...;
-int Custos[1..n][1..n][1..n][1..n]; 							//Matriz contendo todos os arcos
-float Probs[i in 1..n][j in 1..n] = (14 - i - j)/500;
+int Custos[1..n][1..n][1..n][1..n]; 			//Matriz contendo todos os arcos
+
 
 //Código para preencher a matriz dos custos a partir das outras (extraídas da folha excel)
 execute {
@@ -50,17 +53,17 @@ for(var x in a)
 
 
 //Variáveis de Decisão
- dvar float+ T[1..n][1..n][1..n][1..n];			//Tempo de um ij para um kl
+ dvar float+ T[1..n][1..n];						//Tempo de ignição de um nodo ij
  dvar boolean R[1..n][1..n];					//Recursos utilizados no nodo ij
- dvar boolean Arde[1..n][1..n][1..n][1..n];
  
  //Função Objetivo
- maximize sum(i in 1..n, j in 1..n, k in 1..n, l in 1..n) (T[i][j][k][l] -  Probs[i][j]*Arde[i][j][k][l]);
+ maximize T[i_fim][j_fim];
   
  //Restrições
  subject to{
-  	forall(i in 1..n, j in 1..n) T[i][j][i][j] == 0;
-  	sum(i in 1..n, j in 1..n) R[i][j] <= b;
- 	forall(i in 1..n, j in 1..n, k in 1..n, l in 1..n, m in 1..n, n in 1..n) T[i][j][k][l] <= T[i][j][m][n] + Custos[m][n][k][l] + R[m][n]*delta; 	
- 	forall(i in 1..n, j in 1..n, k in 1..n, l in 1..n) Arde[i][j][k][l] == (T[i][j][k][l] <= time);
+ 	forall(i in 1..n, j in 1..n, k in 1..n, l in 1..n: k != 1 || l != 1) T[k][l] <= T[i][j] + Custos[i][j][k][l] + R[i][j]*delta;
+ 	sum(i in 1..n, j in 1..n) R[i][j] <= b;																										//Só há b recursos disponíveis
+ 
+ 	T[i_inicio][j_inicio] == 0;
  }
+ 

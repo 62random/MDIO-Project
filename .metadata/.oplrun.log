@@ -442,3 +442,75 @@ Command-line arguments:  -clean -nl pt_PT -configuration C:\Users\Asus\Dropbox\c
 
 !ENTRY ilog.odms.ide.opllang.remote 1 0 2018-12-08 20:39:07.427
 !MESSAGE Run 3 in C:/Users/Asus/Dropbox/cadeiras/mdio/teste
+!SESSION 2018-12-08 20:50:19.483 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.0 - pwa6480sr5-20170905_01(SR5)
+JRE 1.8.0 IBM J9 2.9 Windows 10 amd64-64 Compressed References 20170901_363591 (JIT enabled, AOT enabled)
+J9VM - d56eb84
+JIT  - tr.open_20170901_140853_d56eb84
+OMR  - b033a01
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_PT
+Command-line arguments:  -clean -nl pt_PT -configuration C:\Users\Asus\Dropbox\cadeiras\mdio\.metadata\workspace_oplrun
+
+!ENTRY ilog.odms.ide.opllang.remote 1 0 2018-12-08 20:50:19.483
+!MESSAGE Run 1b in C:/Users/Asus/Dropbox/cadeiras/mdio/teste
+!SESSION 2018-12-08 20:50:42.042 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.0 - pwa6480sr5-20170905_01(SR5)
+JRE 1.8.0 IBM J9 2.9 Windows 10 amd64-64 Compressed References 20170901_363591 (JIT enabled, AOT enabled)
+J9VM - d56eb84
+JIT  - tr.open_20170901_140853_d56eb84
+OMR  - b033a01
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_PT
+Command-line arguments:  -clean -nl pt_PT -configuration C:\Users\Asus\Dropbox\cadeiras\mdio\.metadata\workspace_oplrun
+
+!ENTRY ilog.odms.ide.opllang.remote 1 0 2018-12-08 20:50:42.042
+!MESSAGE Run 1b in C:/Users/Asus/Dropbox/cadeiras/mdio/teste
+!SESSION 2018-12-08 20:57:03.599 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.0 - pwa6480sr5-20170905_01(SR5)
+JRE 1.8.0 IBM J9 2.9 Windows 10 amd64-64 Compressed References 20170901_363591 (JIT enabled, AOT enabled)
+J9VM - d56eb84
+JIT  - tr.open_20170901_140853_d56eb84
+OMR  - b033a01
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_PT
+Command-line arguments:  -clean -nl pt_PT -configuration C:\Users\Asus\Dropbox\cadeiras\mdio\.metadata\workspace_oplrun
+
+!ENTRY ilog.odms.ide.opllang.remote 1 0 2018-12-08 20:57:03.599
+!MESSAGE Run 3 in C:/Users/Asus/Dropbox/cadeiras/mdio/teste
+!SESSION 2018-12-08 21:02:05.610 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.0 - pwa6480sr5-20170905_01(SR5)
+JRE 1.8.0 IBM J9 2.9 Windows 10 amd64-64 Compressed References 20170901_363591 (JIT enabled, AOT enabled)
+J9VM - d56eb84
+JIT  - tr.open_20170901_140853_d56eb84
+OMR  - b033a01
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_PT
+Command-line arguments:  -clean -nl pt_PT -configuration C:\Users\Asus\Dropbox\cadeiras\mdio\.metadata\workspace_oplrun
+
+!ENTRY ilog.odms.ide.opllang.remote 1 0 2018-12-08 21:02:05.610
+!MESSAGE Run 2 in C:/Users/Asus/Dropbox/cadeiras/mdio/teste
+!SESSION 2018-12-08 21:07:31.996 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.0 - pwa6480sr5-20170905_01(SR5)
+JRE 1.8.0 IBM J9 2.9 Windows 10 amd64-64 Compressed References 20170901_363591 (JIT enabled, AOT enabled)
+J9VM - d56eb84
+JIT  - tr.open_20170901_140853_d56eb84
+OMR  - b033a01
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_PT
+Command-line arguments:  -clean -nl pt_PT -configuration C:\Users\Asus\Dropbox\cadeiras\mdio\.metadata\workspace_oplrun
+
+!ENTRY ilog.odms.ide.opllang.remote 1 0 2018-12-08 21:07:31.996
+!MESSAGE Run 1b in C:/Users/Asus/Dropbox/cadeiras/mdio/teste
+!SESSION 2018-12-08 21:07:38.410 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.0 - pwa6480sr5-20170905_01(SR5)
+JRE 1.8.0 IBM J9 2.9 Windows 10 amd64-64 Compressed References 20170901_363591 (JIT enabled, AOT enabled)
+J9VM - d56eb84
+JIT  - tr.open_20170901_140853_d56eb84
+OMR  - b033a01
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_PT
+Command-line arguments:  -clean -nl pt_PT -configuration C:\Users\Asus\Dropbox\cadeiras\mdio\.metadata\workspace_oplrun
+
+!ENTRY ilog.odms.ide.opllang.remote 1 0 2018-12-08 21:07:38.426
+!MESSAGE Run 3 in C:/Users/Asus/Dropbox/cadeiras/mdio/teste

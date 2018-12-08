@@ -45,7 +45,7 @@ for(var x in a)
 
 
 //Variáveis de Decisão
- dvar float+ T[1..n][1..n];						//Tempo de ignição de um nodo ij
+dvar int+ T[1..n][1..n];						//Tempo de ignição de um nodo ij
  
  
  //Função Objetivo

@@ -55,7 +55,7 @@ for(var x in a)
  dvar boolean Arde[1..n][1..n][1..n][1..n];
  
  //Função Objetivo
- maximize sum(i in 1..n, j in 1..n, k in 1..n, l in 1..n) (T[i][j][k][l] -  Probs[i][j]*Arde[i][j][k][l]);
+ maximize sum(i in 1..n, j in 1..n, k in 1..n, l in 1..n) T[i][j][k][l] - sum(i in 1..n, j in 1..n) Probs[i][j]*sum(k in 1..n, l in 1..n) Arde[i][j][k][l];
   
  //Restrições
  subject to{
