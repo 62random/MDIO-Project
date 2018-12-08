@@ -514,3 +514,87 @@ Command-line arguments:  -clean -nl pt_PT -configuration C:\Users\Asus\Dropbox\c
 
 !ENTRY ilog.odms.ide.opllang.remote 1 0 2018-12-08 21:07:38.426
 !MESSAGE Run 3 in C:/Users/Asus/Dropbox/cadeiras/mdio/teste
+!SESSION 2018-12-08 21:12:00.308 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.0 - pwa6480sr5-20170905_01(SR5)
+JRE 1.8.0 IBM J9 2.9 Windows 10 amd64-64 Compressed References 20170901_363591 (JIT enabled, AOT enabled)
+J9VM - d56eb84
+JIT  - tr.open_20170901_140853_d56eb84
+OMR  - b033a01
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_PT
+Command-line arguments:  -clean -nl pt_PT -configuration C:\Users\Asus\Dropbox\cadeiras\mdio\.metadata\workspace_oplrun
+
+!ENTRY ilog.odms.ide.opllang.remote 1 0 2018-12-08 21:12:00.308
+!MESSAGE Run 2 in C:/Users/Asus/Dropbox/cadeiras/mdio/teste
+!SESSION 2018-12-08 21:12:29.993 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.0 - pwa6480sr5-20170905_01(SR5)
+JRE 1.8.0 IBM J9 2.9 Windows 10 amd64-64 Compressed References 20170901_363591 (JIT enabled, AOT enabled)
+J9VM - d56eb84
+JIT  - tr.open_20170901_140853_d56eb84
+OMR  - b033a01
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_PT
+Command-line arguments:  -clean -nl pt_PT -configuration C:\Users\Asus\Dropbox\cadeiras\mdio\.metadata\workspace_oplrun
+
+!ENTRY ilog.odms.ide.opllang.remote 1 0 2018-12-08 21:12:29.993
+!MESSAGE Run 2 in C:/Users/Asus/Dropbox/cadeiras/mdio/teste
+!SESSION 2018-12-08 21:13:14.273 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.0 - pwa6480sr5-20170905_01(SR5)
+JRE 1.8.0 IBM J9 2.9 Windows 10 amd64-64 Compressed References 20170901_363591 (JIT enabled, AOT enabled)
+J9VM - d56eb84
+JIT  - tr.open_20170901_140853_d56eb84
+OMR  - b033a01
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_PT
+Command-line arguments:  -clean -nl pt_PT -configuration C:\Users\Asus\Dropbox\cadeiras\mdio\.metadata\workspace_oplrun
+
+!ENTRY ilog.odms.ide.opllang.remote 1 0 2018-12-08 21:13:14.273
+!MESSAGE Run 2 in C:/Users/Asus/Dropbox/cadeiras/mdio/teste
+!SESSION 2018-12-08 21:14:11.211 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.0 - pwa6480sr5-20170905_01(SR5)
+JRE 1.8.0 IBM J9 2.9 Windows 10 amd64-64 Compressed References 20170901_363591 (JIT enabled, AOT enabled)
+J9VM - d56eb84
+JIT  - tr.open_20170901_140853_d56eb84
+OMR  - b033a01
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_PT
+Command-line arguments:  -clean -nl pt_PT -configuration C:\Users\Asus\Dropbox\cadeiras\mdio\.metadata\workspace_oplrun
+
+!ENTRY ilog.odms.ide.opllang.remote 1 0 2018-12-08 21:14:11.211
+!MESSAGE Run 2 in C:/Users/Asus/Dropbox/cadeiras/mdio/teste
+!SESSION 2018-12-08 21:16:50.931 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.0 - pwa6480sr5-20170905_01(SR5)
+JRE 1.8.0 IBM J9 2.9 Windows 10 amd64-64 Compressed References 20170901_363591 (JIT enabled, AOT enabled)
+J9VM - d56eb84
+JIT  - tr.open_20170901_140853_d56eb84
+OMR  - b033a01
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_PT
+Command-line arguments:  -clean -nl pt_PT -configuration C:\Users\Asus\Dropbox\cadeiras\mdio\.metadata\workspace_oplrun
+
+!ENTRY ilog.odms.ide.opllang.remote 1 0 2018-12-08 21:16:50.931
+!MESSAGE Run 2 in C:/Users/Asus/Dropbox/cadeiras/mdio/teste
+!SESSION 2018-12-08 21:17:14.878 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.0 - pwa6480sr5-20170905_01(SR5)
+JRE 1.8.0 IBM J9 2.9 Windows 10 amd64-64 Compressed References 20170901_363591 (JIT enabled, AOT enabled)
+J9VM - d56eb84
+JIT  - tr.open_20170901_140853_d56eb84
+OMR  - b033a01
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_PT
+Command-line arguments:  -clean -nl pt_PT -configuration C:\Users\Asus\Dropbox\cadeiras\mdio\.metadata\workspace_oplrun
+
+!ENTRY ilog.odms.ide.opllang.remote 1 0 2018-12-08 21:17:14.878
+!MESSAGE Run 2 in C:/Users/Asus/Dropbox/cadeiras/mdio/teste
+!SESSION 2018-12-08 22:24:31.568 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.0 - pwa6480sr5-20170905_01(SR5)
+JRE 1.8.0 IBM J9 2.9 Windows 10 amd64-64 Compressed References 20170901_363591 (JIT enabled, AOT enabled)
+J9VM - d56eb84
+JIT  - tr.open_20170901_140853_d56eb84
+OMR  - b033a01
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_PT
+Command-line arguments:  -clean -nl pt_PT -configuration C:\Users\Asus\Dropbox\cadeiras\mdio\.metadata\workspace_oplrun
+
+!ENTRY ilog.odms.ide.opllang.remote 1 0 2018-12-08 22:24:31.584
+!MESSAGE Run 1a in C:/Users/Asus/Dropbox/cadeiras/mdio/teste

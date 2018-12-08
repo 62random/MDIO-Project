@@ -13,7 +13,7 @@ int a[i in 1..n] = i;
 int i_inicio = 1;
 int j_inicio = 1;
 int i_fim = 1;
-int j_fim = 7;
+int j_fim = 2;
 
 
 //Número de recursos b
