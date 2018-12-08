@@ -52,10 +52,11 @@ for(var x in a)
 //Variáveis de Decisão
  dvar float+ T[1..n][1..n][1..n][1..n];			//Tempo de um ij para um kl
  dvar boolean R[1..n][1..n];					//Recursos utilizados no nodo ij
+ dvar float P[1..n][1..n];
  dvar boolean Arde[1..n][1..n][1..n][1..n];
  
  //Função Objetivo
- maximize sum(i in 1..n, j in 1..n, k in 1..n, l in 1..n) T[i][j][k][l] - sum(i in 1..n, j in 1..n) Probs[i][j]*sum(k in 1..n, l in 1..n) Arde[i][j][k][l];
+ minimize sum(i in 1..n, j in 1..n) P[i][j]*sum(k in 1..n, l in 1..n) Arde[i][j][k][l];
   
  //Restrições
  subject to{
@@ -63,4 +64,5 @@ for(var x in a)
   	sum(i in 1..n, j in 1..n) R[i][j] <= b;
  	forall(i in 1..n, j in 1..n, k in 1..n, l in 1..n, m in 1..n, n in 1..n) T[i][j][k][l] <= T[i][j][m][n] + Custos[m][n][k][l] + R[m][n]*delta; 	
  	forall(i in 1..n, j in 1..n, k in 1..n, l in 1..n) Arde[i][j][k][l] == (T[i][j][k][l] <= time);
+ 	forall(i in 1..n, j in 1..n) P[i][j] == Probs[i][j] + sum(k in 1..7, l in 1..7) Arde[k][l][i][j]*((1- Probs[i][j])*Probs[k][l]);
  }
