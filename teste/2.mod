@@ -12,8 +12,8 @@ int a[i in 1..n] = i;
 //Início ou fim do fogo
 int i_inicio = 1;
 int j_inicio = 1;
-int i_fim = 1;
-int j_fim = 2;
+int i_fim = 7;
+int j_fim = 7;
 
 
 //Número de recursos b
@@ -61,7 +61,7 @@ for(var x in a)
   
  //Restrições
  subject to{
- 	forall(k in 1..n, l in 1..n: k != 1 || l != 1) T[k][l] == min(i in 1..n, j in 1..n) (T[i][j] + Custos[i][j][k][l] + R[i][j]*delta);
+ 	forall(i in 1..n, j in 1..n, k in 1..n, l in 1..n: k != 1 || l != 1) T[k][l] <= T[i][j] + Custos[i][j][k][l] + R[i][j]*delta;
  	sum(i in 1..n, j in 1..n) R[i][j] <= b;																										//Só há b recursos disponíveis
  
  	T[i_inicio][j_inicio] == 0;

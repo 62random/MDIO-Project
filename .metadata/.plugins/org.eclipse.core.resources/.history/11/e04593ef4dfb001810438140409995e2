@@ -12,7 +12,15 @@ int a[i in 1..n] = i;
 //Início ou fim do fogo
 int i_inicio = 1;
 int j_inicio = 1;
+int i_fim = 1;
+int j_fim = 2;
 
+
+//Número de recursos b
+int b = 8;
+
+//Constante de retardamento do fogo por recurso delta
+int delta = 8;
 
 //Parâmetros sobre os custos dos arcos
 int Cima [1..n][1..n] = ...;
@@ -20,6 +28,7 @@ int Direita [1..n][1..n] = ...;
 int Baixo [1..n][1..n] = ...;
 int Esquerda [1..n][1..n] = ...;
 int Custos[1..n][1..n][1..n][1..n]; 			//Matriz contendo todos os arcos
+
 
 //Código para preencher a matriz dos custos a partir das outras (extraídas da folha excel)
 execute {
@@ -44,13 +53,17 @@ for(var x in a)
 
 
 //Variáveis de Decisão
- dvar float+ X[1..n][1..n][1..n][1..n];			//Número de caminhos em que o arco ijkl é utilizado
+ dvar float+ T[1..n][1..n];						//Tempo de ignição de um nodo ij
+ dvar boolean R[1..n][1..n];					//Recursos utilizados no nodo ij
  
  //Função Objetivo
- minimize sum(i in 1..n, j in 1..n, k in 1..n, l in 1..n)  Custos[i][j][k][l]*X[i][j][k][l];
+ maximize T[i_fim][j_fim];
   
  //Restrições
  subject to{
- 	sum(i in 1..n, j in 1..n) (X[i_inicio][j_inicio][i][j] - X[i][j][i_inicio][j_inicio]) == n^2 -1; 											//Do nodo 1,1 saem 48 caminhos
- 	forall(i in 1..n, j in 1..n: i != 1 || j != 1) (sum(k in 1..n, l in 1..n) (X[i][j][k][l] - X[k][l][i][j]) == -1); 						//De um nodo sai menos um caminho do que a ele chegam (visto que o caminho mais curto para esse nodo termina nele)
-}
+ 	forall(k in 1..n, l in 1..n: k != 1 || l != 1) T[k][l] == min(i in 1..n, j in 1..n) (T[i][j] + Custos[i][j][k][l] + R[i][j]*delta);
+ 	sum(i in 1..n, j in 1..n) R[i][j] <= b;																										//Só há b recursos disponíveis
+ 
+ 	T[i_inicio][j_inicio] == 0;
+ }
+ 
