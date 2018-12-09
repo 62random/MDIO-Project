@@ -452,3 +452,200 @@ java.lang.Exception
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY ilog.odms.ide.opllang 1 0 2018-12-09 02:22:47.105
+!MESSAGE concert_wrap.IloEndMT
+!SESSION 2018-12-09 09:56:01.196 -----------------------------------------------
+eclipse.buildId=Build 0
+java.fullversion=8.0.5.0 - pwa6480sr5-20170905_01(SR5)
+JRE 1.8.0 IBM J9 2.9 Windows 8 amd64-64 Compressed References 20170901_363591 (JIT enabled, AOT enabled)
+J9VM - d56eb84
+JIT  - tr.open_20170901_140853_d56eb84
+OMR  - b033a01
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_PT
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clean
+
+!ENTRY ilog.odms.ide.core 1 0 2018-12-09 09:56:07.591
+!MESSAGE ODM Bundle is OFF
+
+!ENTRY ilog.odms.ide.core 4 0 2018-12-09 12:19:38.915
+!MESSAGE Oplrun process is not responding, you must relaunch the Run Configuration.
+
+!ENTRY ilog.odms.ide.core 4 0 2018-12-09 12:19:41.502
+!MESSAGE Connection refused to host: 127.0.0.1; nested exception is: 
+	java.net.ConnectException: Connection refused: connect
+!STACK 0
+java.rmi.ConnectException: Connection refused to host: 127.0.0.1; nested exception is: 
+	java.net.ConnectException: Connection refused: connect
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:631)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:228)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:214)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:141)
+	at com.sun.jmx.remote.internal.PRef.invoke(Unknown Source)
+	at javax.management.remote.rmi.RMIConnectionImpl_Stub.close(Unknown Source)
+	at javax.management.remote.rmi.RMIConnector.close(RMIConnector.java:516)
+	at javax.management.remote.rmi.RMIConnector.close(RMIConnector.java:456)
+	at ilog.odms.ide.internal.core.run.remote.IloRemoteOplrunLauncher.close(IloRemoteOplrunLauncher.java:567)
+	at ilog.odms.ide.internal.core.run.remote.IloRemoteRunController.fireRunTerminated(IloRemoteRunController.java:167)
+	at ilog.odms.ide.internal.core.run.IloAbstractRunController.requestAbort(IloAbstractRunController.java:817)
+	at ilog.odms.ide.internal.core.run.IloAbstractRunController.terminate(IloAbstractRunController.java:886)
+	at ilog.odms.ide.internal.core.run.remote.IloRemoteRunController$1.handleDebugEvents(IloRemoteRunController.java:155)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1187)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:431)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:90)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:380)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:236)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:218)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:183)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.net.Socket.connect(Socket.java:666)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.<init>(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:239)
+	at sun.rmi.transport.proxy.RMIDirectSocketFactory.createSocket(RMIDirectSocketFactory.java:52)
+	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createSocket(RMIMasterSocketFactory.java:160)
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:625)
+	... 17 more
+
+!ENTRY ilog.odms.ide.core 4 0 2018-12-09 14:46:09.174
+!MESSAGE Oplrun process is not responding, you must relaunch the Run Configuration.
+
+!ENTRY ilog.odms.ide.core 4 0 2018-12-09 14:46:11.833
+!MESSAGE Connection refused to host: 127.0.0.1; nested exception is: 
+	java.net.ConnectException: Connection refused: connect
+!STACK 0
+java.rmi.ConnectException: Connection refused to host: 127.0.0.1; nested exception is: 
+	java.net.ConnectException: Connection refused: connect
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:631)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:228)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:214)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:141)
+	at com.sun.jmx.remote.internal.PRef.invoke(Unknown Source)
+	at javax.management.remote.rmi.RMIConnectionImpl_Stub.close(Unknown Source)
+	at javax.management.remote.rmi.RMIConnector.close(RMIConnector.java:516)
+	at javax.management.remote.rmi.RMIConnector.close(RMIConnector.java:456)
+	at ilog.odms.ide.internal.core.run.remote.IloRemoteOplrunLauncher.close(IloRemoteOplrunLauncher.java:567)
+	at ilog.odms.ide.internal.core.run.remote.IloRemoteRunController.fireRunTerminated(IloRemoteRunController.java:167)
+	at ilog.odms.ide.internal.core.run.IloAbstractRunController.requestAbort(IloAbstractRunController.java:817)
+	at ilog.odms.ide.internal.core.run.IloAbstractRunController.terminate(IloAbstractRunController.java:886)
+	at ilog.odms.ide.internal.core.run.remote.IloRemoteRunController$1.handleDebugEvents(IloRemoteRunController.java:155)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1187)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:431)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:90)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:380)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:236)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:218)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:183)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.net.Socket.connect(Socket.java:666)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.<init>(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:239)
+	at sun.rmi.transport.proxy.RMIDirectSocketFactory.createSocket(RMIDirectSocketFactory.java:52)
+	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createSocket(RMIMasterSocketFactory.java:160)
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:625)
+	... 17 more
+
+!ENTRY ilog.odms.ide.core 2 0 2018-12-09 16:09:01.947
+!MESSAGE OPL busy, ignoring launch of teste 3
+
+!ENTRY ilog.odms.ide.core 4 0 2018-12-09 16:54:28.152
+!MESSAGE Oplrun process is not responding, you must relaunch the Run Configuration.
+
+!ENTRY ilog.odms.ide.core 4 0 2018-12-09 16:54:30.677
+!MESSAGE Connection refused to host: 127.0.0.1; nested exception is: 
+	java.net.ConnectException: Connection refused: connect
+!STACK 0
+java.rmi.ConnectException: Connection refused to host: 127.0.0.1; nested exception is: 
+	java.net.ConnectException: Connection refused: connect
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:631)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:228)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:214)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:141)
+	at com.sun.jmx.remote.internal.PRef.invoke(Unknown Source)
+	at javax.management.remote.rmi.RMIConnectionImpl_Stub.close(Unknown Source)
+	at javax.management.remote.rmi.RMIConnector.close(RMIConnector.java:516)
+	at javax.management.remote.rmi.RMIConnector.close(RMIConnector.java:456)
+	at ilog.odms.ide.internal.core.run.remote.IloRemoteOplrunLauncher.close(IloRemoteOplrunLauncher.java:567)
+	at ilog.odms.ide.internal.core.run.remote.IloRemoteRunController.fireRunTerminated(IloRemoteRunController.java:167)
+	at ilog.odms.ide.internal.core.run.IloAbstractRunController.requestAbort(IloAbstractRunController.java:817)
+	at ilog.odms.ide.internal.core.run.IloAbstractRunController.terminate(IloAbstractRunController.java:886)
+	at ilog.odms.ide.internal.core.run.remote.IloRemoteRunController$1.handleDebugEvents(IloRemoteRunController.java:155)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1187)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:431)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:90)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:380)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:236)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:218)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:183)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.net.Socket.connect(Socket.java:666)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.<init>(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:239)
+	at sun.rmi.transport.proxy.RMIDirectSocketFactory.createSocket(RMIDirectSocketFactory.java:52)
+	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createSocket(RMIMasterSocketFactory.java:160)
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:625)
+	... 17 more
+
+!ENTRY ilog.odms.ide.core 4 0 2018-12-09 16:55:45.674
+!MESSAGE Oplrun process is not responding, you must relaunch the Run Configuration.
+
+!ENTRY ilog.odms.ide.core 4 0 2018-12-09 16:55:48.196
+!MESSAGE Connection refused to host: 127.0.0.1; nested exception is: 
+	java.net.ConnectException: Connection refused: connect
+!STACK 0
+java.rmi.ConnectException: Connection refused to host: 127.0.0.1; nested exception is: 
+	java.net.ConnectException: Connection refused: connect
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:631)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:228)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:214)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:141)
+	at com.sun.jmx.remote.internal.PRef.invoke(Unknown Source)
+	at javax.management.remote.rmi.RMIConnectionImpl_Stub.close(Unknown Source)
+	at javax.management.remote.rmi.RMIConnector.close(RMIConnector.java:516)
+	at javax.management.remote.rmi.RMIConnector.close(RMIConnector.java:456)
+	at ilog.odms.ide.internal.core.run.remote.IloRemoteOplrunLauncher.close(IloRemoteOplrunLauncher.java:567)
+	at ilog.odms.ide.internal.core.run.remote.IloRemoteRunController.fireRunTerminated(IloRemoteRunController.java:167)
+	at ilog.odms.ide.internal.core.run.IloAbstractRunController.requestAbort(IloAbstractRunController.java:817)
+	at ilog.odms.ide.internal.core.run.IloAbstractRunController.terminate(IloAbstractRunController.java:886)
+	at ilog.odms.ide.internal.core.run.remote.IloRemoteRunController$1.handleDebugEvents(IloRemoteRunController.java:155)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1187)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:431)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:90)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:380)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:236)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:218)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:183)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.net.Socket.connect(Socket.java:666)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.<init>(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:239)
+	at sun.rmi.transport.proxy.RMIDirectSocketFactory.createSocket(RMIDirectSocketFactory.java:52)
+	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createSocket(RMIMasterSocketFactory.java:160)
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:625)
+	... 17 more
+
+!ENTRY ilog.odms.ide.opllang 1 0 2018-12-09 17:31:37.350
+!MESSAGE concert_wrap.IloEndMT
